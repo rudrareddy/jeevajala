@@ -1,0 +1,150 @@
+/* Welcome Page Specific Styles */
+
+.welcome-section {
+    min-height: 100vh;
+    padding-top: 80px;
+    background: linear-gradient(135deg, #e8e8e8 0%, #d5d5d5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-card {
+    background: var(--white);
+    border-radius: 1.5rem;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.welcome-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.user-name-section {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.name-label {
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.name-value {
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.welcome-message {
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.user-details {
+    margin: 2rem 0;
+}
+
+.detail-item {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    display: block;
+}
+
+.detail-label {
+    color: #FFB800;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.detail-value {
+    color: #FFB800;
+    font-weight: 700;
+}
+
+.gratitude-message {
+    color: var(--text-dark);
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+}
+
+.divider-line {
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 1.5rem 0;
+}
+
+.action-button {
+    margin: 2rem 0;
+}
+
+.btn-back-home {
+    background: #dc3545;
+    color: var(--white);
+    padding: 0.9rem 3rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    transition: var(--transition);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-back-home:hover {
+    background: #c82333;
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .welcome-card {
+        padding: 2rem 1.5rem;
+        margin: 1rem;
+    }
+
+    .welcome-title {
+        font-size: 1.75rem;
+    }
+
+    .welcome-message,
+    .gratitude-message {
+        font-size: 0.9rem;
+    }
+
+    .detail-item {
+        font-size: 0.9rem;
+    }
+
+    .btn-back-home {
+        padding: 0.8rem 2rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-title {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .user-name-section {
+        font-size: 1rem;
+    }
+}
