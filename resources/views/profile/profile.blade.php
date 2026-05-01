@@ -632,24 +632,40 @@
     </section>
     <script>
 function copyToClipboard() {
-    // 1. Get the text from the H5 element
     const linkText = document.getElementById('refLink').innerText;
     const btn = document.getElementById('copyBtn');
 
-    // 2. Use the Clipboard API to copy
-    navigator.clipboard.writeText(linkText).then(() => {
-        // 3. Visual feedback: Change button text and color briefly
+    function showFeedback() {
         const originalText = btn.innerText;
         btn.innerText = 'Copied!';
         btn.classList.replace('btn-outline-primary', 'btn-success');
-
         setTimeout(() => {
             btn.innerText = originalText;
             btn.classList.replace('btn-success', 'btn-outline-primary');
         }, 2000);
-    }).catch(err => {
-        console.error('Failed to copy: ', err);
-    });
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(linkText).then(showFeedback).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    } else {
+        // Fallback for non-secure contexts (HTTP)
+        const textarea = document.createElement('textarea');
+        textarea.value = linkText;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        try {
+            document.execCommand('copy');
+            showFeedback();
+        } catch (err) {
+            console.error('Fallback copy failed: ', err);
+        }
+        document.body.removeChild(textarea);
+    }
 }
 </script>
 @endsection
