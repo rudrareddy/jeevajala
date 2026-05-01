@@ -5,10 +5,10 @@
             <div class="navbar-brand-box">
                 <a href="{{url('admin/dashboard')}}" class="logo logo-dark">
                     <span class="logo-sm">
-                       <h2><i class="fas fa-tint"></i> Jeva Jala<h2>
+                       <h2><i class="fas fa-tint"></i> Jeevajala<h2>
                     </span>
                     <span class="logo-lg">
-                        <i class="fas fa-tint"></i> Jeva Jala
+                        <i class="fas fa-tint"></i> Jeevajala
                     </span>
                 </a>
 

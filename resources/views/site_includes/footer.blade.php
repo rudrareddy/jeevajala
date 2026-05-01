@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="mb-4"><i class="fas fa-tint me-2"></i>Jeva Jala</h4>
+                    <h4 class="mb-4"><i class="fas fa-tint me-2"></i>Jeevajala</h4>
                     <p class="mb-4">Premium alkaline water solutions for a healthier, more vibrant life. Experience the purity you deserve.</p>
                     <!--<div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -27,14 +27,14 @@
                     <ul class="footer-contact">
                         <li><i class="fas fa-map-marker-alt"></i> Anekal, Karnataka, India</li>
                         <li><i class="fas fa-phone"></i> +91 12345 67890</li>
-                        <li><i class="fas fa-envelope"></i> info@swamalunga.com</li>
+                        <li><i class="fas fa-envelope"></i> info@jeevajala.com</li>
                     </ul>
                 </div>
             </div>
             <hr class="my-4">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p class="mb-0">&copy; {{date('Y')}} Jeva Jala Alkaline Water. All rights reserved.</p>
+                    <p class="mb-0">&copy; {{date('Y')}} Jeevajala Alkaline Water. All rights reserved.</p>
                 </div>
             </div>
         </div>

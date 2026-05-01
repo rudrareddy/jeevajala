@@ -15,7 +15,7 @@
                         </div>
 
                         <div class="welcome-message">
-                            Dear, Warmest welcome! to Jeva Jala and thank you for becoming a part of our team. Your dedication and unique perspective truly set you apart.
+                            Dear, Warmest welcome! to Jeeva Jala and thank you for becoming a part of our team. Your dedication and unique perspective truly set you apart.
                         </div>
 
                         <div class="user-details">

@@ -81,7 +81,8 @@ if (passwordInput) {
 }
 
 // Form validation for login
-/*const loginForm = document.querySelector('.auth-form');
+const loginForm = document.querySelector('.auth-form');
+/*
 if (loginForm && window.location.pathname.includes('login')) {
     loginForm.addEventListener('submit', function(e) {
         e.preventDefault();

@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Hydrated Water Admin|Dashboard</title>
+        <title>Jeevajala Admin|Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Ecommerce website admin" name="description" />
         <meta content="Kodsmith" name="author" />
