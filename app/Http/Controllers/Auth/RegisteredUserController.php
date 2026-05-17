@@ -43,11 +43,12 @@ class RegisteredUserController extends Controller
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
         $username = null;
+        $referrerId = null;
         if ($request->filled('username')) {
             $username = User::where('username', $request->username)->first();
             if ($username) {
-                    $referrerId = $username->id;
-             }
+                $referrerId = $username->id;
+            }
         }
 
         $user = User::create([

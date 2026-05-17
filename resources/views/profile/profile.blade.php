@@ -43,7 +43,7 @@
                                 </a>
                                 <a href="#security" class="menu-item">
                                     <i class="fas fa-shield-alt"></i>
-                                    <span>Referral Linke</span>
+                                    <span>Referral Link</span>
                                 </a>
                             </div>
 

@@ -107,51 +107,6 @@ if (loginForm && window.location.pathname.includes('login')) {
     });
 }*/
 
-// Form validation for registration
-if (loginForm && window.location.pathname.includes('register')) {
-    loginForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const firstName = document.getElementById('firstName').value;
-        const lastName = document.getElementById('lastName').value;
-        const email = document.getElementById('regEmail').value;
-        const phone = document.getElementById('phone').value;
-        const password = document.getElementById('regPassword').value;
-        const confirmPassword = document.getElementById('confirmPassword').value;
-        const terms = document.getElementById('terms').checked;
-        
-        // Validation
-        if (!firstName || !lastName || !email || !phone || !password || !confirmPassword) {
-            alert('Please fill in all fields');
-            return;
-        }
-        
-        if (!isValidEmail(email)) {
-            alert('Please enter a valid email address');
-            return;
-        }
-        
-        if (password !== confirmPassword) {
-            alert('Passwords do not match');
-            return;
-        }
-        
-        if (password.length < 8) {
-            alert('Password must be at least 8 characters long');
-            return;
-        }
-        
-        if (!terms) {
-            alert('Please accept the terms and conditions');
-            return;
-        }
-        
-        // Simulate registration (in real app, this would connect to backend)
-        console.log('Registration attempt:', { firstName, lastName, email, phone });
-        alert('Registration functionality will be implemented with backend integration');
-    });
-}
-
 // Email validation helper
 function isValidEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

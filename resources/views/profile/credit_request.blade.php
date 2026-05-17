@@ -14,7 +14,7 @@
                         <p class="text-muted">Request and manage your bonus credits</p>
                     </div>
                     <div class="d-flex gap-2">
-                        <a href="profile.html" class="btn btn-outline-primary">
+                        <a href="{{ url('profile') }}" class="btn btn-outline-primary">
                             <i class="fas fa-arrow-left me-2"></i>Back to Profile
                         </a>
                         <!--<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newRequestModal">
@@ -113,7 +113,7 @@
                             </thead>
                             <tbody>
                                 @foreach($creditRequests as $request)
-                                <tr data-status="pending">
+                                <tr data-status="{{ $request->status }}">
                                     <td><span class="request-id">{{$request->request_id}}</span></td>
                                     <td><span class="badge bg-success">{{$request->request_type}}</span></td>
                                     <td class="amount-cell">₹{{$request->amount}}</td>

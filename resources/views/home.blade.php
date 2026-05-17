@@ -14,7 +14,7 @@
                         <a href="#packages" class="btn btn-primary btn-lg me-3">
                             <i class="fas fa-shopping-cart me-2"></i>Shop Now
                         </a>
-                        <a href="#about" class="btn btn-outline-light btn-lg">
+                        <a href="#" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#youtubeModal">
                             <i class="fas fa-play-circle me-2"></i>Learn More
                         </a>
                     </div>
@@ -76,8 +76,8 @@
                         <span class="section-label">Our Story</span>
                         <h2 class="section-title">About Us</h2>
                     </div>
-                    <h3 class="mb-4">Jeva Jala Alkaline Water Solutions</h3>
-                    <p class="lead mb-4">At Jeva Jala Alkaline Water, we believe that water is more than just hydration—it's the foundation of a healthier, more vibrant life.</p>
+                    <h3 class="mb-4 about-main-heading">Jeva Jala Alkaline Water Solutions</h3>
+                    <p class="lead mb-4 about-lead-text">At Jeva Jala Alkaline Water, we believe that water is more than just hydration—it's the foundation of a healthier, more vibrant life.</p>
                     <p class="mb-4">Our mission is to provide pure, mineral-rich alkaline water that helps balance the body, boost energy, and promote overall well-being. With advanced purification technology and a deep commitment to quality, we ensure every drop you drink supports a healthier tomorrow.</p>
                     
                     <div class="vision-mission mt-5">
@@ -173,7 +173,7 @@
                 <div class="col-lg-6">
                     <div class="what-we-do">
                         <h3 class="mb-4">What We Do</h3>
-                        <p class="lead mb-4">At Jeva Jala, we specialize in producing and delivering high-quality alkaline water enriched with essential minerals.</p>
+                        <p class="what-we-do-lead mb-4">At Jeva Jala, we specialize in producing and delivering high-quality alkaline water enriched with essential minerals.</p>
                         <p class="mb-4">Our advanced purification process ensures water that is clean, safe, and naturally balanced with a higher pH level. Whether for home, office, or on-the-go hydration, we provide convenient solutions that keep you refreshed and revitalized.</p>
                         <p class="mb-0">We don't just sell water—we promote a lifestyle of health, balance, and sustainability.</p>
                         

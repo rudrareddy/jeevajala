@@ -13,14 +13,56 @@
     <link rel="stylesheet" href="{{asset('site/welcome.css')}}">
 </head>
 <body>
+    <!-- Sticky Offer Badge (right side) -->
+    <div id="offerBanner" class="offer-badge">
+        <div class="offer-badge-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="offer-badge-title">2 Years</div>
+        <div class="offer-badge-line">Free Service</div>
+        <div class="offer-badge-line">&amp; Warranty</div>
+        <div class="offer-badge-sub">Hassle-free<br>maintenance covered</div>
+    </div>
      @include('site_includes.header')
       @yield('content')
      @include('site_includes.footer')
 
     
 
+    <!-- YouTube Video Modal -->
+    <div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="youtubeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-dark border-0">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe id="youtubeIframe"
+                            src=""
+                            title="Jeevajala – Learn More"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{asset('site/script.js')}}"></script>
+    <script>
+        // YouTube modal — stop video on close
+        const ytModal = document.getElementById('youtubeModal');
+        if (ytModal) {
+            const youtubeVideoSrc = 'https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&rel=0';
+            ytModal.addEventListener('show.bs.modal', function () {
+                document.getElementById('youtubeIframe').src = youtubeVideoSrc;
+            });
+            ytModal.addEventListener('hide.bs.modal', function () {
+                document.getElementById('youtubeIframe').src = '';
+            });
+        }
+    </script>
     <script src="{{asset('site/profile.js')}}"></script>
     <script src="{{asset('site/credit_request.js')}}"></script>
 </body>
