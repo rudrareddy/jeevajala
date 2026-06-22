@@ -22,7 +22,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-
                     @auth
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown">
@@ -45,10 +44,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('login')}}">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="btn btn-primary nav-btn" href="{{route('register')}}">Enquire Now</a>
+                   <li class="nav-item">
+                        <a class="nav-link" href="{{route('register')}}">Register</a>
                     </li>
                     @endauth
+                     <li class="nav-item">
+                        <a class="nav-link btn btn-md" href="https://wa.me/919945059767" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+                            <i class="fab fa-whatsapp"></i> Chat with us
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
