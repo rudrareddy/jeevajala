@@ -241,7 +241,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="stat-box">
-                                <div class="stat-icon" style="background: rgba(0, 119, 190, 0.1); color: #0077BE;">
+                                <div class="stat-icon" style="background: rgba(31, 78, 95, 0.1); color: #1F4E5F;">
                                     <i class="fas fa-list"></i>
                                 </div>
                                 <div>

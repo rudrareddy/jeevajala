@@ -7,7 +7,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #0077BE 0%, #00C4CC 100%);
+            background: linear-gradient(135deg, #1F4E5F 0%, #2F7D57 100%);
             position: relative;
             overflow: hidden;
             padding: 2rem;
@@ -222,7 +222,7 @@
     <div class="error-page">
         <div class="error-overlay"></div>
         
-        <!-- Floating Drops -->
+        <!-- Floating shapes -->
         <div class="floating-drops">
             <div class="drop"></div>
             <div class="drop"></div>
@@ -234,7 +234,7 @@
         <!-- Error Content -->
         <div class="error-content">
             <div class="error-icon">
-                <i class="fas fa-tint-slash"></i>
+                <i class="fas fa-shirt"></i>
             </div>
             
             <div class="error-code">404</div>
@@ -242,7 +242,7 @@
             <h1 class="error-title">Page Not Found</h1>
             
             <p class="error-message">
-                Oops! It seems the page you're looking for has dried up. Don't worry, we'll help you get back on track to pure hydration!
+                Oops! The page you're looking for is not available. We'll help you get back to our school uniform collections.
             </p>
 
             <div class="error-actions">

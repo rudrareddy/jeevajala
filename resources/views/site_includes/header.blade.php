@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="{{url('/')}}">
-                <i class="fas fa-tint"></i> Jeevajala
+                <i class="fas fa-graduation-cap"></i> Smart Stitch
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('/#packages') ? 'active' : '' }}" href="{{url('/#packages')}}">Products</a>
+                        <a class="nav-link {{ request()->is('/#packages') ? 'active' : '' }}" href="{{url('/#packages')}}">Uniforms</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -46,7 +46,7 @@
                         <a class="nav-link" href="{{route('login')}}">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary nav-btn" href="{{route('register')}}">Get Started</a>
+                        <a class="btn btn-primary nav-btn" href="{{route('register')}}">Enquire Now</a>
                     </li>
                     @endauth
                 </ul>

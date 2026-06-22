@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Jeevajala Alkaline Water - Pure Hydration for Life</title>
+    <title>Smart Stitch School Uniforms - Quality Uniforms for Students</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -15,11 +15,11 @@
 <body>
     <!-- Sticky Offer Badge (right side) -->
     <div id="offerBanner" class="offer-badge">
-        <div class="offer-badge-icon"><i class="fas fa-shield-alt"></i></div>
-        <div class="offer-badge-title">2 Years</div>
-        <div class="offer-badge-line">Free Service</div>
-        <div class="offer-badge-line">&amp; Warranty</div>
-        <div class="offer-badge-sub">Hassle-free<br>maintenance covered</div>
+        <div class="offer-badge-icon"><i class="fas fa-shirt"></i></div>
+        <div class="offer-badge-title">Bulk</div>
+        <div class="offer-badge-line">School</div>
+        <div class="offer-badge-line">Orders</div>
+        <div class="offer-badge-sub">Custom sizes<br>and logos</div>
     </div>
      @include('site_includes.header')
       @yield('content')
@@ -38,7 +38,7 @@
                     <div class="ratio ratio-16x9">
                         <iframe id="youtubeIframe"
                             src=""
-                            title="Jeevajala – Learn More"
+                            title="Smart Stitch School Uniforms - Learn More"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>

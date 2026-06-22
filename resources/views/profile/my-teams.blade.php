@@ -109,7 +109,7 @@
                                     <td>{{ $users->firstItem() + $loop->index }}</td>
                                     <td>
                                         <div class="member-info">
-                                            <img src="https://ui-avatars.com/api/?name={{$user->name}}&size=40&background=0077BE&color=fff" alt="Member" class="member-avatar">
+                                            <img src="https://ui-avatars.com/api/?name={{$user->name}}&size=40&background=1F4E5F&color=fff" alt="Member" class="member-avatar">
                                             <span>{{ucfirst($user->name)}}</span>
                                         </div>
                                     </td>

@@ -20,7 +20,7 @@
     box-shadow: var(--shadow-sm);
     text-align: center;
     margin-bottom: 1.5rem;
-    border: 1px solid rgba(0, 119, 190, 0.1);
+    border: 1px solid rgba(31, 78, 95, 0.1);
 }
 
 .profile-avatar-wrapper {
@@ -34,7 +34,7 @@
     height: 120px;
     border-radius: 50%;
     border: 4px solid var(--white);
-    box-shadow: 0 4px 15px rgba(0, 119, 190, 0.2);
+    box-shadow: 0 4px 15px rgba(31, 78, 95, 0.2);
     object-fit: cover;
 }
 
@@ -92,7 +92,7 @@
     border-radius: 1.5rem;
     box-shadow: var(--shadow-sm);
     padding: 1.5rem 0;
-    border: 1px solid rgba(0, 119, 190, 0.1);
+    border: 1px solid rgba(31, 78, 95, 0.1);
 }
 
 .menu-section {
@@ -134,7 +134,7 @@
 }
 
 .menu-item:hover {
-    background: rgba(0, 119, 190, 0.05);
+    background: rgba(31, 78, 95, 0.05);
     color: var(--primary-color);
     transform: translateX(5px);
 }
@@ -168,12 +168,12 @@
     border-radius: 1.5rem;
     box-shadow: var(--shadow-sm);
     overflow: hidden;
-    border: 1px solid rgba(0, 119, 190, 0.1);
+    border: 1px solid rgba(31, 78, 95, 0.1);
 }
 
 .card-header-custom {
     padding: 2rem;
-    border-bottom: 2px solid rgba(0, 119, 190, 0.1);
+    border-bottom: 2px solid rgba(31, 78, 95, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,7 +221,7 @@
 .input-with-icon select:focus,
 .input-with-icon textarea:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(0, 119, 190, 0.1);
+    box-shadow: 0 0 0 0.2rem rgba(31, 78, 95, 0.1);
 }
 
 .input-with-icon .form-control:disabled,
@@ -236,13 +236,13 @@
     gap: 1rem;
     justify-content: flex-end;
     padding-top: 1.5rem;
-    border-top: 2px solid rgba(0, 119, 190, 0.1);
+    border-top: 2px solid rgba(31, 78, 95, 0.1);
 }
 
 /* Document Upload Cards */
 .document-upload-card {
     background: var(--white);
-    border: 2px dashed rgba(0, 119, 190, 0.2);
+    border: 2px dashed rgba(31, 78, 95, 0.2);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -551,7 +551,7 @@
 }
 
 .dropdown-item:hover {
-    background: rgba(0, 119, 190, 0.05);
+    background: rgba(31, 78, 95, 0.05);
     color: var(--primary-color);
 }
 
@@ -568,7 +568,7 @@
 }
 
 .alert-info {
-    background: rgba(0, 196, 204, 0.1);
+    background: rgba(47, 125, 87, 0.1);
     color: #007bff;
 }
 
@@ -763,7 +763,7 @@
 
 .user-id {
     font-family: 'Courier New', monospace;
-    background: rgba(0, 119, 190, 0.1);
+    background: rgba(31, 78, 95, 0.1);
     padding: 0.25rem 0.75rem;
     border-radius: 0.5rem;
     font-size: 0.9rem;
@@ -810,7 +810,7 @@
 
 .trans-id {
     font-family: 'Courier New', monospace;
-    background: rgba(0, 196, 204, 0.1);
+    background: rgba(47, 125, 87, 0.1);
     padding: 0.25rem 0.75rem;
     border-radius: 0.5rem;
     font-size: 0.85rem;
@@ -874,7 +874,7 @@
 }
 
 .balance-card i {
-    background: rgba(0, 119, 190, 0.1);
+    background: rgba(31, 78, 95, 0.1);
     color: var(--primary-color);
 }
 
@@ -905,7 +905,7 @@
 /* Page Header Styles */
 .page-header {
     padding-bottom: 1.5rem;
-    border-bottom: 2px solid rgba(0, 119, 190, 0.1);
+    border-bottom: 2px solid rgba(31, 78, 95, 0.1);
 }
 
 .page-title {
@@ -1029,7 +1029,7 @@
 }
 
 .bonus-status.claimed {
-    background: rgba(0, 119, 190, 0.1);
+    background: rgba(31, 78, 95, 0.1);
     color: var(--primary-color);
 }
 
@@ -1061,7 +1061,7 @@
 
 .request-id {
     font-family: 'Courier New', monospace;
-    background: rgba(0, 196, 204, 0.1);
+    background: rgba(47, 125, 87, 0.1);
     padding: 0.25rem 0.75rem;
     border-radius: 0.5rem;
     font-size: 0.85rem;

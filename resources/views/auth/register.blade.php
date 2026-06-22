@@ -13,10 +13,10 @@
                                 <div class="auth-form-side">
                                     <div class="text-center mb-4">
                                         <div class="auth-icon mb-3">
-                                            <i class="fas fa-tint"></i>
+                                            <i class="fas fa-shirt"></i>
                                         </div>
                                         <h3 class="mb-2">Create Account</h3>
-                                        <p class="text-muted">Join us for a healthier lifestyle</p>
+                                        <p class="text-muted">Create an account for uniform enquiries</p>
                                     </div>
 
                                     <form class="auth-form" method="POST" action="{{route('register')}}">
@@ -153,7 +153,7 @@
                                     <div class="auth-overlay"></div>
                                     <div class="auth-content">
                                         <h2 class="mb-4">Start Your Wellness Journey</h2>
-                                        <p class="mb-4">Create your account today and discover the transformative power of premium alkaline water.</p>
+                                        <p class="mb-4">Create your account today to enquire about school uniforms, complete kits, and bulk institutional orders.</p>
                                         <div class="auth-features">
                                             <div class="feature-item">
                                                 <i class="fas fa-check-circle"></i>

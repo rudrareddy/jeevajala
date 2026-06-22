@@ -11,7 +11,7 @@
                         <!-- User Info Card -->
                         <div class="user-info-card">
                             <div class="profile-avatar-wrapper">
-                                <img src="https://ui-avatars.com/api/?name={{$user->name}}&size=120&background=0077BE&color=fff" alt="Profile" class="profile-avatar" id="profileAvatar">
+                                <img src="https://ui-avatars.com/api/?name={{$user->name}}&size=120&background=1F4E5F&color=fff" alt="Profile" class="profile-avatar" id="profileAvatar">
                                 <div class="avatar-upload-btn">
                                     <!--<input type="file" id="avatarUpload" accept="image/*" hidden>
                                     <label for="avatarUpload" class="upload-icon">

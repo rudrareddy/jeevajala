@@ -14,7 +14,7 @@
                                     <div class="auth-overlay"></div>
                                     <div class="auth-content">
                                         <h2 class="mb-4">Welcome Back!</h2>
-                                        <p class="mb-4">Sign in to access your account and continue your journey to better hydration and wellness.</p>
+                                        <p class="mb-4">Sign in to manage your school uniform enquiries, orders, and account details.</p>
                                         <div class="auth-features">
                                             <div class="feature-item">
                                                 <i class="fas fa-check-circle"></i>
@@ -22,7 +22,7 @@
                                             </div>
                                             <div class="feature-item">
                                                 <i class="fas fa-check-circle"></i>
-                                                <span>Manage subscriptions</span>
+                                                <span>Manage uniform enquiries</span>
                                             </div>
                                             <div class="feature-item">
                                                 <i class="fas fa-check-circle"></i>
@@ -38,7 +38,7 @@
                                 <div class="auth-form-side">
                                     <div class="text-center mb-4">
                                         <div class="auth-icon mb-3">
-                                            <i class="fas fa-tint"></i>
+                                            <i class="fas fa-shirt"></i>
                                         </div>
                                         <h3 class="mb-2">Sign In</h3>
                                         <p class="text-muted">Enter your credentials to access your account</p>

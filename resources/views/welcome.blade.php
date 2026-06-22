@@ -15,7 +15,7 @@
                         </div>
 
                         <div class="welcome-message">
-                            Dear, Warmest welcome! to Jeeva Jala and thank you for becoming a part of our team. Your dedication and unique perspective truly set you apart.
+                            Dear, Warmest welcome to Smart Stitch School Uniforms and thank you for becoming a part of our customer community. We are happy to help with your school uniform needs.
                         </div>
 
                         <div class="user-details">
@@ -36,7 +36,7 @@
                         </div>
 
                         <div class="gratitude-message">
-                            We want to express our sincere gratitude for choosing us for your online shopping needs
+                            We sincerely thank you for choosing us for quality school uniforms and clothing essentials.
                         </div>
 
                         <div class="divider-line"></div>
